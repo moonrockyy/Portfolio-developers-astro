@@ -12,6 +12,6 @@ export const PERSONAL_INFO = {
             label: "LinkedIn",
         },
         { href: "https://github.com/moonrockyy", label: "GitHub" },
-        { href: "mahanjafari14@gmail.com", label: "Email" },
+        { href: "mailto:mahanjafari14@gmail.com", label: "Email" },
     ],
 };
