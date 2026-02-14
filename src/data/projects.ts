@@ -32,7 +32,7 @@ export const PROJECTS = [
         tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.NODE],
     },
     {
-        title: "EcoEarth - Sustainable E-commerce Platform",
+        title: "Moonrock - Personal Bussiness Website",
         description:
             "A modern eco-friendly marketplace focused on sustainable living. Highly optimized for performance and accessibility, featuring a custom CMS for organic product curation.",
         link: "https://ecoearth-shop.dev",
@@ -40,4 +40,22 @@ export const PROJECTS = [
         image: "/projects/ecoearth.webp",
         tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.REACT],
     },
+    {
+        title: "CryptoViz - Real-time Analytics Dashboard",
+        description:
+            "A high-performance dashboard for tracking cryptocurrency trends. Features live charts, portfolio management, and automated market alerts.",
+        link: "https://cryptoviz-demo.vercel.app/",
+        github: "https://github.com/jhondoe/cryptoviz",
+        image: "/projects/cryptoviz.webp",
+        tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.NODE],
+    },
+    {
+        title: "Moonrock - Personal Bussiness Website",
+        description:
+            "A modern eco-friendly marketplace focused on sustainable living. Highly optimized for performance and accessibility, featuring a custom CMS for organic product curation.",
+        link: "https://ecoearth-shop.dev",
+        github: "https://github.com/jhondoe/ecoearth",
+        image: "/projects/ecoearth.webp",
+        tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.REACT],
+    }
 ];
