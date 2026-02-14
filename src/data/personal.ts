@@ -1,18 +1,17 @@
 export const PERSONAL_INFO = {
-    name: "Jhon Doe",
+    name: "Mahan Jafari",
     title: "Who stands behind the code?",
-    description: "Hi! I'm Jhon Doe, a Full Stack Developer with a passion for building digital experiences that marry form and function. With over 3 years of experience, I've specialized in creating robust architectures and fluid user interfaces.",
-    journey: "My journey started with a curiosity for how things work under the hood, leading me to master modern technologies like Astro, React, and Node.js.",
+    description: "I’m a frontend developer with solid experience in TypeScript, React.js, Next.js, and modern web tools. Since 2021, I’ve been building products that turn business ideas into real solutions. I enjoy creating clean, user‑friendly experiences and helping others grow in their tech careers.",
+    journey: "",
     skills: ["🚀 Fast Learner", "💡 Problem Solver", "🤝 Team Player"],
     heroDescription: "I'm a passionate developer with a strong background in web development and a deep love for creating innovative and user-friendly applications.",
     resumeUrl: "/",
     socialLinks: [
         {
-            href: "https://www.linkedin.com/",
+            href: "https://www.linkedin.com/in/mahanjafarii",
             label: "LinkedIn",
         },
-        { href: "https://github.com/", label: "GitHub" },
-        { href: "https://x.com/", label: "Twitter" },
-        { href: "mailto:example@gmail.com", label: "Email" },
+        { href: "https://github.com/moonrockyy", label: "GitHub" },
+        { href: "mahanjafari14@gmail.com", label: "Email" },
     ],
 };
