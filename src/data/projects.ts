@@ -1,16 +1,16 @@
 export const TAGS = {
     ASTRO: {
-        name: "Astro",
+        name: "HTML",
         class: "bg-[#7836cf]/20 text-[#bc95ff]",
         icon: "lucide:rocket",
     },
     REACT: {
-        name: "React",
+        name: "JavaScript",
         class: "bg-[#23272f] text-[#58c4dc]",
-        icon: "lucide:atom",
+        icon: "lucide:webhook",
     },
     TAILWIND: {
-        name: "Tailwind CSS",
+        name: "CSS",
         class: "bg-[#003159] text-white",
         icon: "lucide:wind",
     },
@@ -23,39 +23,12 @@ export const TAGS = {
 
 export const PROJECTS = [
     {
-        title: "CryptoViz - Real-time Analytics Dashboard",
-        description:
-            "A high-performance dashboard for tracking cryptocurrency trends. Features live charts, portfolio management, and automated market alerts.",
-        link: "https://cryptoviz-demo.vercel.app/",
-        github: "https://github.com/jhondoe/cryptoviz",
-        image: "/projects/cryptoviz.webp",
-        tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.NODE],
-    },
-    {
         title: "Moonrock - Personal Bussiness Website",
         description:
-            "A modern eco-friendly marketplace focused on sustainable living. Highly optimized for performance and accessibility, featuring a custom CMS for organic product curation.",
-        link: "https://ecoearth-shop.dev",
-        github: "https://github.com/jhondoe/ecoearth",
-        image: "/projects/ecoearth.webp",
-        tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.REACT],
-    },
-    {
-        title: "CryptoViz - Real-time Analytics Dashboard",
-        description:
-            "A high-performance dashboard for tracking cryptocurrency trends. Features live charts, portfolio management, and automated market alerts.",
-        link: "https://cryptoviz-demo.vercel.app/",
-        github: "https://github.com/jhondoe/cryptoviz",
-        image: "/projects/cryptoviz.webp",
-        tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.NODE],
-    },
-    {
-        title: "Moonrock - Personal Bussiness Website",
-        description:
-            "A modern eco-friendly marketplace focused on sustainable living. Highly optimized for performance and accessibility, featuring a custom CMS for organic product curation.",
-        link: "https://ecoearth-shop.dev",
-        github: "https://github.com/jhondoe/ecoearth",
-        image: "/projects/ecoearth.webp",
+            "Moonrock delivers premium digital solutions for modern businesses. Our sleek, responsive websites blend innovative design with powerful functionality. We help your brand shine online, transforming visitors into loyal customers. Launch your success story with Moonrock today.",
+        link: "https://moonrock.ir",
+        github: "https://github.com/moonrockyy/moonrock-web",
+        image: "/images/moonrock.png",
         tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.REACT],
     }
 ];
