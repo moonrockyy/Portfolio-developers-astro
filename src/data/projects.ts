@@ -7,6 +7,11 @@ export const TAGS = {
     REACT: {
         name: "JavaScript",
         class: "bg-[#23272f] text-[#58c4dc]",
+        icon: "lucide:life-buoy",
+    },
+    REACT2: {
+        name: "React",
+        class: "bg-[#23272f] text-[#58c4dc]",
         icon: "lucide:webhook",
     },
     TAILWIND: {
@@ -19,9 +24,23 @@ export const TAGS = {
         class: "bg-[#339933]/20 text-[#6cc24a]",
         icon: "lucide:server",
     },
+    MONGO: {
+        name: "MongoDB",
+        class: "bg-[#7836cf]/20 text-[#bc95ff]",
+        icon: "lucide:leaf",
+    },
 };
 
 export const PROJECTS = [
+    {
+        title: "Proshop - Ecommerce Clothing Store",
+        description:
+            "Built a full-featured ecommerce clothing store using the MERN stack. Features include product browsing, cart management, user authentication, and secure payment processing for a seamless shopping experience.",
+        link: "https://github.com/moonrockyy/proshop",
+        github: "https://github.com/moonrockyy/proshop",
+        image: "/images/proshop.png",
+        tags: [TAGS.REACT2, TAGS.NODE, TAGS.MONGO],
+    },
     {
         title: "Moonrock - Personal Bussiness Website",
         description:
