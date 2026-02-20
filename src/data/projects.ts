@@ -29,9 +29,28 @@ export const TAGS = {
         class: "bg-[#7836cf]/20 text-[#bc95ff]",
         icon: "lucide:leaf",
     },
+    TAILWIND2: {
+        name: "Tailwind",
+        class: "bg-[#003159] text-white",
+        icon: "lucide:tram-front",
+    },
+    SUPABASE: {
+        name: "Supabase",
+        class: "bg-[#339933]/20 text-[#6cc24a]",
+        icon: "lucide:cable",
+    },
 };
 
 export const PROJECTS = [
+    {
+        title: "MenuCraft - Restaurant Menu Builder",
+        description:
+            "A modern, professional menu builder designed specifically for restaurants, cafes, bars, and food service businesses. Create beautiful, digital menus that your customers can access instantly on their phones. No design skills required!",
+        link: "https://menusaz.vercel.app",
+        github: "https://github.com/moonrockyy/restaurant-menu-builder",
+        image: "/images/menucraft.png",
+        tags: [TAGS.REACT2, TAGS.TAILWIND2, TAGS.SUPABASE],
+    },
     {
         title: "Proshop - Ecommerce Clothing Store",
         description:
@@ -41,13 +60,5 @@ export const PROJECTS = [
         image: "/images/proshop.png",
         tags: [TAGS.REACT2, TAGS.NODE, TAGS.MONGO],
     },
-    {
-        title: "Moonrock - Personal Bussiness Website",
-        description:
-            "Moonrock delivers premium digital solutions for modern businesses. Our sleek, responsive websites blend innovative design with powerful functionality. We help your brand shine online, transforming visitors into loyal customers. Launch your success story with Moonrock today.",
-        link: "https://moonrock.ir",
-        github: "https://github.com/moonrockyy/moonrock-web",
-        image: "/images/moonrock.png",
-        tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.REACT],
-    }
+    
 ];
