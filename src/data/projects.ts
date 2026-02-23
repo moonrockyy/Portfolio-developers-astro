@@ -39,9 +39,28 @@ export const TAGS = {
         class: "bg-[#339933]/20 text-[#6cc24a]",
         icon: "lucide:cable",
     },
+    NEXT: {
+        name: "Next.js",
+        class: "bg-[#23272f] text-[#58c4dc]",
+        icon: "lucide:tower-control",
+    },
+    TS: {
+        name: "Typescript",
+        class: "bg-[#23272f] text-[#0077b6]",
+        icon: "lucide:grape",
+    },
 };
 
 export const PROJECTS = [
+    {
+        title: "DokBook - Doctor Booking App",
+        description:
+            "A clean web application for booking doctor appointments, allowing patients to schedule visits, generate tickets, and manage time slots, with an organized dashboard experience for both users and doctors.",
+        link: "https://dokiapp.vercel.app",
+        github: "https://github.com/moonrockyy/doctor-appointment-app",
+        image: "/images/dokbook.png",
+        tags: [TAGS.NEXT, TAGS.TAILWIND2, TAGS.TS],
+    },
     {
         title: "MenuCraft - Restaurant Menu Builder",
         description:
